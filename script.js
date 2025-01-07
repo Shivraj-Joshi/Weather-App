@@ -20,6 +20,7 @@ document.querySelector("#search-btn").addEventListener("click", () => {
             })
             .catch(error => {
                 alert('city not found!')
+                cityInput.value = '';
             });
     }
 
